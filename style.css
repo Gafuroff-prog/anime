@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C0E18;
+    color: white;
+    height: 70px;
+    text-align: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid;
+    border-radius: 5px;
+    
+    
+}
+.nav .namelogo{
+    position: relative;
+    left: 30px;
+    bottom: 4px;
+}
+
+.nav .reg{
+    position: relative;
+    right: 100px;
+    top: 8px;
+}
+.nav .enter{
+    position: relative;
+    right: 50px;
+    border-radius: 5px;
+    border: 0px solid;
+    background-color: #BFAFF2;
+    color: #333333;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+}
+.nav select{
+    position: relative;
+    right: 350px;
+    border: 0px solid;
+    background-color: #0C0E18;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+}
+.nav select option{
+    border: 0px solid;
+    border-radius: 5px;
+    width: 40px;
+    height: 20px;
+    background-color: #0C0E18;
+}
+.nav select option:hover{
+    background-color: #BFAFF2;
+}
+body{
+    background-color: #101220;
+    
+}
+div{
+    color: white;
+}
+.satoru{
+   width: 320px;
+   height: 280px;
+   background-color: #232028;
+   border-radius: 10px; 
+   text-align: center;
+   position: relative;
+   left: 50px;
+   z-index: -4;
+}
+.satoru h1{
+   position: absolute;
+   top: 70px;
+   left:75px;
+   color: white;
+}
+.satoru p{
+    position: absolute;
+    top: 110px;
+    right: 14px;
+    width: 300px;
+
+}
+.satorupng{
+    position: relative;
+    top: 77px;
+    left: 75px;
+}
+.itadori{
+    width: 320px;
+    height: 280px;
+    background-color: #232028;
+    border-radius: 10px; 
+    text-align: center;
+    position: relative;
+    left: 400px;
+    z-index: -4;
+    bottom: 605px;
+}
+.itadori h1{
+    position: absolute;
+    top: 70px;
+    left:75px;
+    color: white;
+}
+.itadori p{
+    position: absolute;
+    top: 110px;
+    right: 14px;
+    width: 300px;
+
+}
+.itadoripng{
+    position: relative;
+    bottom: 520px;
+    left: 420px;
+
+}
+.megumi{
+    width: 320px;
+    height: 280px;
+    background-color: #232028;
+    border-radius: 10px; 
+    text-align: center;
+    position: relative;
+    left: 750px;
+    z-index: -4;
+    bottom: 1211px;
+}
+.megumi h1{
+    position: absolute;
+    top: 70px;
+    left:50px;
+    color: white;
+}
+.megumi p{
+    position: absolute;
+    top: 110px;
+    right: 14px;
+    width: 300px;
+
+}
+.megumipng{
+    position: relative;
+    bottom: 1140px;
+    left: 760px;
+}
+.kugisaki{
+    width: 320px;
+    height: 280px;
+    background-color: #232028;
+    border-radius: 10px; 
+    text-align: center;
+    position: relative;
+    left: 1111px;
+    bottom: 1818px;
+    z-index: -4;
+ }
+ .kugisaki h1{
+    position: absolute;
+    top: 70px;
+    left:50px;
+    color: white;
+ }
+ .kugisaki p{
+     position: absolute;
+     top: 110px;
+     right: 14px;
+     width: 300px;
+ 
+ }
+ .kugisakipng{
+     position: relative;
+     bottom: 1740px;
+     left: 1150px;
+ }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    position: relative;
+    bottom: 1700px;
+    height: 70px;
+    background-color: #0C0E18;
+    text-align: center;
+    align-content: center;
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+footer ul li{
+    color: white;
+}
+footer h1{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
